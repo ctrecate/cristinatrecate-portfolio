@@ -524,6 +524,21 @@ img { max-width: 100%; display: block; }
   color: var(--gray-400);
   margin-bottom: 24px;
 }
+.tools-group {
+  margin-bottom: 32px;
+}
+.tools-group:last-child {
+  margin-bottom: 0;
+}
+.tools-group-title {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--gray-400);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
 .tools-logos {
   display: flex;
   flex-wrap: wrap;
